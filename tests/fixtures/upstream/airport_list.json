@@ -1,0 +1,2 @@
+{"airports":[{"code":"SIN","IATA":"SIN","country_code":"SG","CC":"SG","tz_offset":8,"coordinates":{"lat":1.3644,"lng":103.9915,"longitude":103.9915,"latitude":1.3644}},{"code":"BKK","IATA":"BKK","country_code":"TH","CC":"TH","tz_offset":7,"coordinates":{"lat":13.6811,"lng":100.7471,"longitude":100.7471,"latitude":13.6811}},{"code":"KUL","IATA":"KUL","country_code":"MY","CC":"MY","tz_offset":8,"coordinates":{"lat":2.7456,"lng":101.7099,"longitude":101.7099,"latitude":2.7456}}],"total":3}
+
