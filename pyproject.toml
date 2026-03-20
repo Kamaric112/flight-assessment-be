@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flight-bff"
+version = "0.1.0"
+description = "FastAPI backend-for-frontend wrapper for a legacy flight API"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115,<1.0",
+  "httpx>=0.28,<1.0",
+  "pydantic-settings>=2.7,<3.0",
+  "python-dateutil>=2.9,<3.0",
+  "cachetools>=5.5,<6.0",
+  "tenacity>=9.0,<10.0",
+  "structlog>=24.4,<25.0",
+  "uvicorn[standard]>=0.34,<1.0",
+  "email-validator>=2.2,<3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3,<9.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "e2e: tests that run the BFF over real HTTP against the live mock upstream API",
+]

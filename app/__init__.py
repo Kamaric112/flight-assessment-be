@@ -1,0 +1,2 @@
+"""Flight BFF application package."""
+
