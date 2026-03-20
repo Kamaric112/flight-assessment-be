@@ -171,7 +171,8 @@ The cache wrapper is intentionally small so Redis or another shared cache can re
 
 ### Tools Used
 
-- Codex for planning, implementation, refactoring, and test generation
+- Github Copilot subscriptions
+- Opencode for agentic development and codebase-awareness edit
 - the provided upstream OpenAPI document
 - live sample responses from the mock upstream API to verify undocumented success payloads
 
